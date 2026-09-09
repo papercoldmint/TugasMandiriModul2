@@ -89,7 +89,6 @@ fun HalamanProfilMenarik() {
 
         Spacer(modifier = Modifier.height(32.dp))
 
-
         Column(
             modifier = Modifier
                 .fillMaxWidth()
@@ -110,7 +109,7 @@ fun RowKontak(ikon: androidx.compose.ui.graphics.vector.ImageVector, teks: Strin
         modifier = Modifier.fillMaxWidth(),
         verticalAlignment = Alignment.CenterVertically
     ) {
-
+        // Kotak kecil untuk membungkus ikon agar lebih rapi
         Box(
             modifier = Modifier
                 .size(40.dp)
